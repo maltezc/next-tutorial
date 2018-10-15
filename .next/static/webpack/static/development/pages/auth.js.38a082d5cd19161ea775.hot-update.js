@@ -34,7 +34,7 @@ var authIndexPage = function authIndexPage() {
       lineNumber: 7
     },
     __self: this
-  }, "The Auth Index Page"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_User__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "The Auth Index Page - ", props.appName), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_User__WEBPACK_IMPORTED_MODULE_2__["default"], {
     name: "Max",
     age: 28,
     __source: {
@@ -44,12 +44,23 @@ var authIndexPage = function authIndexPage() {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "3238907844",
-    css: "div.jsx-3238907844{border:1px solid #eee;box-shadow:0 2p 3px #ccc;padding:20px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jaHJpc21hbHRlei9EZXNrdG9wL3B5Y2hhcm1wcm9qZWN0cy9VREVNWS9SZWFjdF8xNi1UaGVfQ29tcGxldGVfR3VpZGUvbmV4dC10dXRvcmlhbC9wYWdlcy9hdXRoL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVFvQixBQUd1QyxzQkFDRyx5QkFDWixhQUNLLGtCQUMxQiIsImZpbGUiOiIvVXNlcnMvY2hyaXNtYWx0ZXovRGVza3RvcC9weWNoYXJtcHJvamVjdHMvVURFTVkvUmVhY3RfMTYtVGhlX0NvbXBsZXRlX0d1aWRlL25leHQtdHV0b3JpYWwvcGFnZXMvYXV0aC9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcblxuaW1wb3J0IFVzZXIgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9Vc2VyJztcblxuY29uc3QgYXV0aEluZGV4UGFnZSA9ICgpID0+IChcbiAgICA8ZGl2PlxuICAgICAgICA8aDE+VGhlIEF1dGggSW5kZXggUGFnZTwvaDE+XG4gICAgICAgIDxVc2VyIG5hbWU9XCJNYXhcIiBhZ2U9ezI4fSAvPlxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgICBkaXYge1xuICAgICAgICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNlZWU7XG4gICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAycCAzcHggI2NjYztcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAyMHB4O1xuICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBhdXRoSW5kZXhQYWdlO1xuXG4iXX0= */\n/*@ sourceURL=/Users/chrismaltez/Desktop/pycharmprojects/UDEMY/React_16-The_Complete_Guide/next-tutorial/pages/auth/index.js */",
+    css: "div.jsx-3238907844{border:1px solid #eee;box-shadow:0 2p 3px #ccc;padding:20px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jaHJpc21hbHRlei9EZXNrdG9wL3B5Y2hhcm1wcm9qZWN0cy9VREVNWS9SZWFjdF8xNi1UaGVfQ29tcGxldGVfR3VpZGUvbmV4dC10dXRvcmlhbC9wYWdlcy9hdXRoL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVFvQixBQUd1QyxzQkFDRyx5QkFDWixhQUNLLGtCQUMxQiIsImZpbGUiOiIvVXNlcnMvY2hyaXNtYWx0ZXovRGVza3RvcC9weWNoYXJtcHJvamVjdHMvVURFTVkvUmVhY3RfMTYtVGhlX0NvbXBsZXRlX0d1aWRlL25leHQtdHV0b3JpYWwvcGFnZXMvYXV0aC9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcblxuaW1wb3J0IFVzZXIgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9Vc2VyJztcblxuY29uc3QgYXV0aEluZGV4UGFnZSA9ICgpID0+IChcbiAgICA8ZGl2PlxuICAgICAgICA8aDE+VGhlIEF1dGggSW5kZXggUGFnZSAtIHtwcm9wcy5hcHBOYW1lfTwvaDE+XG4gICAgICAgIDxVc2VyIG5hbWU9XCJNYXhcIiBhZ2U9ezI4fSAvPlxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgICBkaXYge1xuICAgICAgICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNlZWU7XG4gICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAycCAzcHggI2NjYztcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAyMHB4O1xuICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuKVxuXG5hdXRoSW5kZXhQYWdlLmdldEluaXRpYWxQcm9wcyA9IGNvbnRleHQgPT4ge1xuICAgIGNvbnN0IHByb21pc2UgPSBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7XG4gICAgICAgIHNldFRpbWVvdXQoKCkgPT4ge1xuICAgICAgICAgICAgcmVzb2x2ZSh7YXBwTmFtZTogJ1N1cGVyIEFwcCAoQXV0aCknfSlcbiAgICAgICAgfSwgMTAwMClcbiAgICB9KTtcbiAgICByZXR1cm4gcHJvbWlzZTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgYXV0aEluZGV4UGFnZTtcblxuLy8gdXNlIHN0eWxlZC1qc3ggdG8gc3R5bGUgY29tcG9uZW50cy4gc2VlIGRvY3VtZW50YXRpb24gb24gc3R5bGVkLWpzeCJdfQ== */\n/*@ sourceURL=/Users/chrismaltez/Desktop/pycharmprojects/UDEMY/React_16-The_Complete_Guide/next-tutorial/pages/auth/index.js */",
     __self: this
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (authIndexPage);
+authIndexPage.getInitialProps = function (context) {
+  var promise = new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      resolve({
+        appName: 'Super App (Auth)'
+      });
+    }, 1000);
+  });
+  return promise;
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (authIndexPage); // use styled-jsx to style components. see documentation on styled-jsx
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -73,4 +84,4 @@ var authIndexPage = function authIndexPage() {
 /***/ })
 
 })
-//# sourceMappingURL=auth.js.2e976ad6a366464a6d83.hot-update.js.map
+//# sourceMappingURL=auth.js.38a082d5cd19161ea775.hot-update.js.map

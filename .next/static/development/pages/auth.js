@@ -1003,7 +1003,7 @@ var _jsxFileName = "/Users/chrismaltez/Desktop/pycharmprojects/UDEMY/React_16-Th
 
 
 
-var authIndexPage = function authIndexPage() {
+var authIndexPage = function authIndexPage(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "jsx-3238907844",
     __source: {
@@ -1018,7 +1018,7 @@ var authIndexPage = function authIndexPage() {
       lineNumber: 7
     },
     __self: this
-  }, "The Auth Index Page"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_User__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "The Auth Index Page - ", props.appName), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_User__WEBPACK_IMPORTED_MODULE_2__["default"], {
     name: "Max",
     age: 28,
     __source: {
@@ -1028,9 +1028,20 @@ var authIndexPage = function authIndexPage() {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "3238907844",
-    css: "div.jsx-3238907844{border:1px solid #eee;box-shadow:0 2p 3px #ccc;padding:20px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jaHJpc21hbHRlei9EZXNrdG9wL3B5Y2hhcm1wcm9qZWN0cy9VREVNWS9SZWFjdF8xNi1UaGVfQ29tcGxldGVfR3VpZGUvbmV4dC10dXRvcmlhbC9wYWdlcy9hdXRoL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVFvQixBQUd1QyxzQkFDRyx5QkFDWixhQUNLLGtCQUMxQiIsImZpbGUiOiIvVXNlcnMvY2hyaXNtYWx0ZXovRGVza3RvcC9weWNoYXJtcHJvamVjdHMvVURFTVkvUmVhY3RfMTYtVGhlX0NvbXBsZXRlX0d1aWRlL25leHQtdHV0b3JpYWwvcGFnZXMvYXV0aC9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcblxuaW1wb3J0IFVzZXIgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9Vc2VyJztcblxuY29uc3QgYXV0aEluZGV4UGFnZSA9ICgpID0+IChcbiAgICA8ZGl2PlxuICAgICAgICA8aDE+VGhlIEF1dGggSW5kZXggUGFnZTwvaDE+XG4gICAgICAgIDxVc2VyIG5hbWU9XCJNYXhcIiBhZ2U9ezI4fSAvPlxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgICBkaXYge1xuICAgICAgICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNlZWU7XG4gICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAycCAzcHggI2NjYztcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAyMHB4O1xuICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBhdXRoSW5kZXhQYWdlO1xuXG4vLyB1c2Ugc3R5bGVkLWpzeCB0byBzdHlsZSBjb21wb25lbnRzLiBzZWUgZG9jdW1lbnRhdGlvbiBvbiBzdHlsZWQtanN4Il19 */\n/*@ sourceURL=/Users/chrismaltez/Desktop/pycharmprojects/UDEMY/React_16-The_Complete_Guide/next-tutorial/pages/auth/index.js */",
+    css: "div.jsx-3238907844{border:1px solid #eee;box-shadow:0 2p 3px #ccc;padding:20px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jaHJpc21hbHRlei9EZXNrdG9wL3B5Y2hhcm1wcm9qZWN0cy9VREVNWS9SZWFjdF8xNi1UaGVfQ29tcGxldGVfR3VpZGUvbmV4dC10dXRvcmlhbC9wYWdlcy9hdXRoL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVFvQixBQUd1QyxzQkFDRyx5QkFDWixhQUNLLGtCQUMxQiIsImZpbGUiOiIvVXNlcnMvY2hyaXNtYWx0ZXovRGVza3RvcC9weWNoYXJtcHJvamVjdHMvVURFTVkvUmVhY3RfMTYtVGhlX0NvbXBsZXRlX0d1aWRlL25leHQtdHV0b3JpYWwvcGFnZXMvYXV0aC9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcblxuaW1wb3J0IFVzZXIgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9Vc2VyJztcblxuY29uc3QgYXV0aEluZGV4UGFnZSA9IChwcm9wcykgPT4gKFxuICAgIDxkaXY+XG4gICAgICAgIDxoMT5UaGUgQXV0aCBJbmRleCBQYWdlIC0ge3Byb3BzLmFwcE5hbWV9PC9oMT5cbiAgICAgICAgPFVzZXIgbmFtZT1cIk1heFwiIGFnZT17Mjh9IC8+XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAgIGRpdiB7XG4gICAgICAgICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgI2VlZTtcbiAgICAgICAgICAgICAgICBib3gtc2hhZG93OiAwIDJwIDNweCAjY2NjO1xuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4pXG5cbmF1dGhJbmRleFBhZ2UuZ2V0SW5pdGlhbFByb3BzID0gY29udGV4dCA9PiB7XG4gICAgY29uc3QgcHJvbWlzZSA9IG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHtcbiAgICAgICAgc2V0VGltZW91dCgoKSA9PiB7XG4gICAgICAgICAgICByZXNvbHZlKHthcHBOYW1lOiAnU3VwZXIgQXBwIChBdXRoKSd9KVxuICAgICAgICB9LCAxMDAwKVxuICAgIH0pO1xuICAgIHJldHVybiBwcm9taXNlO1xufVxuXG5leHBvcnQgZGVmYXVsdCBhdXRoSW5kZXhQYWdlO1xuXG4vLyB1c2Ugc3R5bGVkLWpzeCB0byBzdHlsZSBjb21wb25lbnRzLiBzZWUgZG9jdW1lbnRhdGlvbiBvbiBzdHlsZWQtanN4Il19 */\n/*@ sourceURL=/Users/chrismaltez/Desktop/pycharmprojects/UDEMY/React_16-The_Complete_Guide/next-tutorial/pages/auth/index.js */",
     __self: this
   }));
+};
+
+authIndexPage.getInitialProps = function (context) {
+  var promise = new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      resolve({
+        appName: 'Super App (Auth)'
+      });
+    }, 1000);
+  });
+  return promise;
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (authIndexPage); // use styled-jsx to style components. see documentation on styled-jsx
@@ -1056,7 +1067,7 @@ var authIndexPage = function authIndexPage() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!***********************************!*\
   !*** multi ./pages/auth/index.js ***!
   \***********************************/
@@ -1081,5 +1092,5 @@ module.exports = dll_5d62d38be3592dca3a42;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=auth.js.map
